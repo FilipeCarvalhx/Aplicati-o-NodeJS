@@ -1,0 +1,21 @@
+{
+  "name": "projeto-github",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "database": "^0.0.2",
+    "fastify": "^4.23.2",
+    "postgres": "^3.3.5"
+  }
+}
